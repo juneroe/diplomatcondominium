@@ -1,0 +1,184 @@
+.cashier-payment-container{
+    width: 100%;
+}
+.cashier-payment-content{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.cashier-payment-header{
+    font-family: 'Poppins';
+    color: #6b1313;
+}
+.cashier-payment-receipt{
+    width: 85%;
+    border: 3px solid #6b1313;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #6b1313;
+}
+.receipt-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #6b1313;
+   
+}
+.receipt-logo{
+    width: 50%;
+}
+.receipt-body{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+}
+.receiptNum span{
+    font-size: 20px;
+}
+.receiptNum{
+    display: flex;
+    justify-content: space-between;
+}
+.receipt-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.receipt-inputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-input{
+    margin-right: 60px;
+    display: flex;
+    gap: 20px;
+}
+.receipt-col{
+    display: flex;
+}
+.receipt-col h3{
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: #6b1313;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.receipt-col-contents{
+    display: flex;
+    flex-direction: column;
+
+}
+.receipt-col-div{
+    display: flex;
+
+}
+.tax-btn{
+    background-color: #6b1313;
+    color: #e6e6e6;
+    border: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+.tax-edit{
+    max-width:83px;
+    display: flex;
+ 
+}
+.receipt-labels{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-right: 5px;
+
+}
+.receipt-labels label, .overall-contents label{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #6b1313;
+}
+
+.name-input label, .date-input label{
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #6b1313;
+}
+.receipt-col-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 43%;
+}
+.receipt-col-inputs input, .receipt-col-inputs select, .name-input input, .date-input input{
+    border: 1px solid #6e1616;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    color: #242424;
+    font-weight: 900;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.overall-contents{
+    display: flex;
+    flex-direction: column;
+}
+.tax-div span{
+    font-weight: 900;
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+.tax-div{
+  display: flex;
+  gap: 3px;  
+  align-items: center;
+}
+.editbtn{
+    width: 13px;
+    height: 13px;
+    margin: 3px 0 0 2px;
+}
+.editbtn:hover{
+    transform: scale(1.4);
+}
+.tax-input{
+    width: 60%;
+}
+.overall-amount{
+    display: flex;
+    align-items: end;
+    height: 100%;
+}
+.overall-contents input{
+    width: 100%;
+    border: 1px solid #6e1616;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    color: #242424;
+    font-weight: 900;
+    font-size: 14px;
+}
+.receipt-btn-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.saveprint{
+    display: flex;
+    gap: 20px;
+}
+.receipt-btn{
+    padding: 5px;
+    font-family: 'Poppins';
+    font-size: 22px;
+    color: #e6e6e6;
+    border-radius: 5px;
+    border: none;
+    background-color: #6b1313;
+    box-shadow: 2px 2px 2px #2e2e2e;
+}

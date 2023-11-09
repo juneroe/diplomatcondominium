@@ -1,0 +1,132 @@
+.tenant-maintenance-container{
+    width: 100%;
+    font-family: 'Poppins';
+    color: #6b1313;
+}
+.tenant-maintenance-content{
+    padding: 20px;
+}
+.maintenance-req-header{
+    display: flex;
+    justify-content: space-between;
+}
+#tenant-maintenance-req{
+    padding: 10px;
+    width: 98%;
+    border: 2px solid #6b1313;
+    max-height: 250px;
+    overflow: auto;
+}
+.date-input-div{
+    display: flex;
+    flex-direction: column;
+}
+#disabled-update-btn{
+    background: gray;
+    border: gray;
+}
+#maintenance-rec-tbl{
+    margin-top: 10px;
+    width: 100%;
+}
+#received-complaints{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+#maintenance-req-exit{
+    width: 30px;
+}
+.unitsubj-input{
+    display: flex;
+    width: 98%;
+    flex-direction: column;
+}
+.unitsubj-input select{
+    border: 1px solid #6e1616;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    color: #242424;
+    font-weight: 700;
+    font-size: 14px;
+    width: 102%;
+}
+
+#popup-maintenance-req{
+    width: 25%;
+    left: 45%;
+}
+#tenant-maintenance-rec{
+    max-height: 300px;
+    overflow: auto;
+    padding: 10px;
+    width: 98%;
+    border: 2px solid #6b1313;
+    margin-top: 20px;
+}
+.name-input, .unitsubj-input{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    resize: none;
+
+}
+#action-buttons-disabled {
+    padding: 0 10px;
+    font-family: 'Poppins';
+    border: 3px  solid #353535;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 2px 5px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: rgb(80, 77, 77);
+    color: white; /* You can adjust text color as needed */
+    cursor: not-allowed;
+  }
+.emptyField{
+    text-align: center;
+}
+.popup-content-complains form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.popup-content-complains form input{
+    padding: 4px;
+    border: 1px solid #6e1616;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    color: #242424;
+    font-weight: 700;
+    font-size: 12px;
+    width: 100%;
+}
+.popup-content-complains form textarea{
+    width: 96%;
+    height: 150px;
+    padding: 8px;
+    border: 1px solid #6e1616;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    color: #242424;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+@media only screen and (min-width: 768px) {
+    
+}
+
+
+/*laptops*/
+@media only screen and (min-width: 1024px) {
+    
+   
+}
+/*desktops*/
+@media only screen and (min-width: 1200px) {
+
+    
+}
